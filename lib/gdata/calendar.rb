@@ -8,13 +8,13 @@
 # Liscensing for the GData API under the Apache Liscense, version 2.0.
 #
 #
-require 'gdata/client'
+require 'gdata/base'
 require 'rubygems'
 require 'builder'
 require 'rexml/document'
 
 module GData
-  class Calendar < GData::Client
+  class Calendar < GData::Base
     def initialize
       super 'cl', 'gdata-ruby', 'www.google.com'
       @gsessionid = ""

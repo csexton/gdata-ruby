@@ -43,8 +43,13 @@ module GData
        'Authorization' => "GoogleLogin auth=#{response.body.split(/=/).last}",
        'Content-Type'  => 'application/atom+xml'
       }
+      @authenticated = true
     end
 
+    def authenticated?
+      @authenticated
+    end
+    
     def request(path)
       response, data = get(path)
       data
@@ -67,7 +72,7 @@ module GData
 
     def http
       conn = Net::HTTP.new(@url, 80)
-      #conn.set_debug_output $stderr
+      # conn.set_debug_output $stderr
       conn
     end
 
