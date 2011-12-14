@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'>
+  <id>https://www.google.com/webmasters/tools/feeds/http%3A%2F%2Fmysite.com%2F/keywords</id>
+  <updated>2011-02-23T18:10:49.529Z</updated>
+  <category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/webmasters/tools/2007#keyword_entry'/>
+  <title type='text'>Keywords</title>
+  <link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='https://www.google.com/webmasters/tools/feeds/http%3A%2F%2Fmysite.com%2F/keywords'/>
+  <link rel='self' type='application/atom+xml' href='https://www.google.com/webmasters/tools/feeds/http%3A%2F%2Fmysite.com%2F/keywords'/>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <wt:keyword xmlns:wt='http://schemas.google.com/webmasters/tools/2007' source='internal'>art</wt:keyword>
+  <wt:keyword xmlns:wt='http://schemas.google.com/webmasters/tools/2007' source='internal'>gallery</wt:keyword>
+  <wt:keyword xmlns:wt='http://schemas.google.com/webmasters/tools/2007' source='internal'>new</wt:keyword>
+  <wt:keyword xmlns:wt='http://schemas.google.com/webmasters/tools/2007' source='internal'>york</wt:keyword>
+</feed>
